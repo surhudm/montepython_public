@@ -156,7 +156,7 @@ General sampling options
 -  :code:`nlive | n_live_points (400)` : number of points used in every iteration.
 -  :code:`IS | importance_nested_sampling (True)` : whether to use Importance Nested Samplin (see `arXiv:1306.2144 <http://arxiv.org/abs/1306.2144>`__).
 -  :code:`efr | sampling_efficiency (0.8)` : defines the sampling efficiency (see 'Use cases' below).
--  :code:`ceff | const_efficiency_mode (True)` : constant efficiency mode -- slower, but more accurate evidence estimation.
+-  :code:`ceff | const_efficiency_mode (True)` : constant efficiency mode -- faster, but less accurate evidence estimation.
 -  :code:`seed | seed (-1)`: seed of the random number generator (if negative, uses system clock).
 -  :code:`logZero | log_zero (-1e90)` : if the log-likelihood of a sample is smaller than this value, the sample is ignored.
 -  :code:`updInt | n_iter_before_update (100)` : number of iteration after which the output files are updated.
